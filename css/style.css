@@ -642,10 +642,10 @@ section * {
   position: relative;
   z-index: 2;
   text-align: center;
-  color: #fff;
+  color: #fefefe;
 }
 .container * {
-  color: #fff;
+  color: #fefefe;
 }
 .container .line-height-sm {
   line-height: .2em;
