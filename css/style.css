@@ -195,8 +195,13 @@ blockquote:before {
 }
 
 .event-copy {
+  margin-top: -50px;
   font-size: 16px;
-  color: #333 !important;
+  color: #000 !important;
+}
+
+.event-copy b {
+  color: #000 !important;
 }
 
 a.text-primary:hover,
@@ -681,12 +686,9 @@ section * {
 
 @media only screen and (max-width: 480px ) {
 
-  .container .title {
-    font-weight: bold;
-    font-size: 34px;
-  }
 
   .container .date {
+    margin-top: 30px;
     font-size: 18px;
     font-weight: bold;
   }
@@ -701,6 +703,12 @@ section * {
   .container .info .special {
     font-size: 12px;
   }
+
+  .container .title {
+    font-weight: bold;
+    font-size: 34px;
+  }
+
 
   .container {
     margin-top: -50px;
@@ -1387,7 +1395,6 @@ section * {
   }
 }
 .content-23 {
-  position: relative;
   height: 800px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1669,7 +1676,8 @@ section * {
 }
 .content-23 {
   overflow: hidden;
-  background-color: #1B1F23;
+  background-color: none;
+
 }
 .content-23 #bgVideo {
   overflow: hidden;
