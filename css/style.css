@@ -193,6 +193,12 @@ blockquote:before {
 .text-primary {
   color: #1abc9c;
 }
+
+.event-copy {
+  font-size: 16px;
+  color: #333 !important;
+}
+
 a.text-primary:hover,
 a.text-primary:focus {
   color: #15967d;
@@ -633,6 +639,36 @@ section * {
     background-size: auto 200%;
   }
 }
+
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+
+    .container .logo{
+        background:url('/img/cnb-logo.png') no-repeat;
+        background-size: 130px 84px;
+    }
+}
+
+.container .date {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.container .info {
+  font-size: 34px;
+}
+
+.container .info .special {
+  font-size: 14px;
+}
+
+.container .title {
+  font-weight: bold;
+  font-size: 48px;
+}
+
+
 .container {
   margin-top: -100px;
   position: relative;
@@ -1607,10 +1643,9 @@ section * {
   filter: alpha(opacity=10);
 }
 .content-23.custom-bg {
-  background-image: url('../img/Italy_001.png');
-  background-position: 50% 50%;
+  background-image: url('/img/dela-bg.png');
+  /*background-position: 50% 50%;*/
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 .footer-3 {
   background-color: #1B1F23;
