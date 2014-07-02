@@ -1,22 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
-/* 62px */
-/* 52px */
-/* 40px */
-/* 29px */
-/* 28px */
-/* 24px */
-
-
 /* custom fonts*/
 @font-face {
   font-family:"Hero-Light";
   src:url("../fonts/Hero_Light.eot?") format("eot"),url("../fonts/Hero_Light.woff") format("woff"),url("../fonts/Hero_Light.ttf") format("truetype"),url("../fonts/Hero_Light.svg#Hero-Light") format("svg");
-  font-weight: 200;
   font-style: normal;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga', 'kern'
 }
 
 
@@ -643,10 +634,20 @@ section * {
   }
 }
 .container {
+  margin-top: -100px;
   position: relative;
   z-index: 2;
   text-align: center;
   color: #fefefe;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga', 'kern'
+
+}
+.container h5 {
+  font-weight: bold;
 }
 .container * {
   color: #fefefe;
@@ -1560,7 +1561,7 @@ section * {
   }
 }
 .header-10-sub .background {
-  background-image: url("../img/codeandbeats-bg.png");
+  background-image: url("../img/cnb-bg.png");
   background-size: cover;
   opacity: 0.85;
   filter: alpha(opacity=85);
