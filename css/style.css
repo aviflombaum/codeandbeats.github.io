@@ -641,12 +641,18 @@ section * {
 }
 
 
-@media (-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) {
 
+.container .logo {
+  display: inline-block;
+  width: 130px;
+  height: 100px;
+  background: url('/img/cnb-logo.png') no-repeat top center;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .container .logo{
-        background:url('/img/cnb-logo.png') no-repeat;
-        background-size: 130px 84px;
+      background:url('/img/cnb-logo@2x.png') no-repeat;
+      background-size: 130px 84px;
     }
 }
 
