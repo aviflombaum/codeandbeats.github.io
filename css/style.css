@@ -674,6 +674,10 @@ section * {
   margin-bottom: 20px;
 }
 
+.container .main-title {
+  margin-left: -15px;
+}
+
 .container .info .special {
   font-size: 14px;
 }
@@ -686,6 +690,10 @@ section * {
 
 @media only screen and (max-width: 480px ) {
 
+
+  .container .main-title {
+    margin-left: -12px;
+  }
 
   .container .date {
     margin-top: 20px;
