@@ -683,7 +683,27 @@ section * {
 
   .container .title {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 34px;
+  }
+
+  .container .date {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .container .info {
+    margin-top: 15px;
+    font-size: 24px;
+    line-height: 1.0;
+    margin-bottom: 15px;
+  }
+
+  .container .info .special {
+    font-size: 12px;
+  }
+
+  .container {
+    margin-top: -50px;
   }
 
 }
