@@ -662,7 +662,10 @@ section * {
 }
 
 .container .info {
+  margin-top: 20px;
   font-size: 34px;
+  line-height: 1.0;
+  margin-bottom: 20px;
 }
 
 .container .info .special {
