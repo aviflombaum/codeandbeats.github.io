@@ -675,7 +675,7 @@ section * {
 }
 
 .container .main-title {
-  margin-left: -15px;
+  /*margin-left: -15px;*/
 }
 
 .container .info .special {
@@ -692,7 +692,7 @@ section * {
 
 
   .container .main-title {
-    margin-left: -12px;
+    /*margin-left: -12px;*/
   }
 
   .container .date {
@@ -1707,7 +1707,7 @@ section * {
   filter: alpha(opacity=10);
 }
 .content-23.custom-bg {
-  background-image: url('/img/dela-bg.png');
+  background-image: url('/img/dela-bg2.png');
   /*background-position: 50% 50%;*/
   background-repeat: no-repeat;
 }
